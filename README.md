@@ -69,7 +69,9 @@ ledstrip_manager.start({
 
 After that we will see virtual device, where we can control RGB and White channels manually. Also we can emulate button click, long click and double click
 
-![rgb_device](img/rgb_device.png){:height="50%" width="50%"}
+![rgb_device](img/rgb_device.png)
+<img src="https://github.com/fullhouse-lab/wirenboard-module-ledstrip/blob/master/img/rgb_device.png" width=50% height=50%>
+
 
 - `button_click` - emulate wall switch click
 - `button_doubleClick` - emulate wall switch double click
@@ -81,7 +83,7 @@ After that we will see virtual device, where we can control RGB and White channe
 - `hb_white_level` - homebridge white channel
 - `hb_white_state` - homebridge white channel state (On/Off)
 
-- `rgb` - control ledstrip RGB channels manually
+- `rgb` - control ledstrip RGB channels manually (using `"R;G;B"`)
 - `white` - control ledstrip white channel manually
 
 ###  Homebridge configuration
